@@ -1,0 +1,11 @@
+dbt_xero:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: SYSADMIN_SFOPS
+      warehouse: OPS_LOADER_WH
+      database: BRONZE_DB
+      schema: DBT
