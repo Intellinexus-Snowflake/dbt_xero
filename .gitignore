@@ -1,11 +1,11 @@
 # dbt
 **/package-lock.yml
 package-lock.yml
-.dbt/
+##.dbt/
 dbt_modules/
 dbt_packages/
 logs/
-profiles.yml
+##profiles.yml
 target/
 *.log
 
